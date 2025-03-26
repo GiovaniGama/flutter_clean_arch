@@ -27,11 +27,11 @@ lib/
 ## 🚀 Como Executar
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/GiovaniGama/flutter_clean_arch.git
    ```  
 2. Acesse o diretório do projeto:  
    ```bash
-   cd nome-do-projeto
+   cd flutter_clean_arch
    ```  
 3. Instale as dependências:  
    ```bash
