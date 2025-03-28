@@ -11,12 +11,6 @@ Este é um projeto simples e pequeno em Flutter que permite visualizar informaç
 - Provider  
 - Go Router  
 
-## 🎨 Design System
-O projeto mantém a organização de estilos separadamente, incluindo:
-- **Cores**: Definidas em um arquivo específico para garantir consistência.  
-- **Fontes**: Configuradas centralmente para fácil reutilização.  
-- **Bordas**: Estilos de borda padronizados para componentes.  
-
 ## 📂 Estrutura do Projeto
 ```
 lib/
