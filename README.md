@@ -1,12 +1,15 @@
+
 # Visualizador de CEP - Flutter
 
-Este é um projeto básico em Flutter que permite visualizar informações de um CEP inserido pelo usuário. O foco principal está na implementação do código utilizando Clean Architecture e princípios SOLID, garantindo um código modular, testável e escalável.
+Este é um projeto simples e pequeno em Flutter que permite visualizar informações de um CEP inserido pelo usuário. Embora não seja necessário utilizar Clean Architecture para esse tipo de projeto, a arquitetura foi aplicada com o objetivo de estudar e entender seus conceitos, assim como o uso do Provider e Go Router. O foco principal está na implementação do código de forma modular, testável e escalável.
 
 ## 📌 Tecnologias Utilizadas
 - Flutter  
 - Dart  
-- Clean Architecture  
+- Clean Architecture (para estudo)  
 - SOLID  
+- Provider  
+- Go Router  
 
 ## 🎨 Design System
 O projeto mantém a organização de estilos separadamente, incluindo:
@@ -17,10 +20,9 @@ O projeto mantém a organização de estilos separadamente, incluindo:
 ## 📂 Estrutura do Projeto
 ```
 lib/
-│── core/                 # Camada central (helpers, design system, etc.)
 │── data/                 # Fontes de dados (API, models, repositories)
 │── domain/               # Regras de negócio (entities, use cases)
-│── presentation/         # Interface do usuário (widgets, páginas, controllers)
+│── ui/                   # Interface do usuário (widgets, páginas, controllers)
 │── main.dart             # Arquivo principal
 ```
 
@@ -40,4 +42,5 @@ lib/
 4. Execute o projeto:  
    ```bash
    flutter run
-   ``` 
+   ```
+
